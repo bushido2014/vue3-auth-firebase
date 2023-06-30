@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-roboto antialiased;
+}
+
+.error {
+  @apply text-red-700 font-bold;
+}
+.signup,
+.signin {
+  @apply p-3 max-w-md mx-auto;
+}
